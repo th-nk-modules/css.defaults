@@ -1,0 +1,204 @@
+/*----------------------------------------------------------------------------*\
+  ...
+\*----------------------------------------------------------------------------*/
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$clr-error						:#ce4844 !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$clr-warning					:#c29a17 !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$clr-success					:#17ba4d !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$clr-info						:#037cda !default;
+
+// make sure that danger and error colours are the same
+$clr-danger						:$clr-error;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$core-body-copy-color			:#333 !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$clr-primary 					:red !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$contrasted-dark-default		:#000000 !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$contrasted-light-default		:#ffffff !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Bool
+$debug 							:false !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Bool
+$prefer-flexbox					:true !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$images 						:"../media/" !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$placeholders 					:"../../placeholders/" !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$base-font-family				:$sans-font-family !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Number
+$base-font-size					:100 !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Number
+$base-font-base					:16 * ($base-font-size/100) !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Number
+$base-line-height				:1.65 !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$site-width 					:1080px !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$base-mono-font-family			:$mono-font-family !default;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$cursor-disabled				:not-allowed;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$border-radius-base				:4px;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$border-radius-large			:6px;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$border-radius-small			:3px;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$code-color						:#c7254e;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$code-bg						:#f9f2f4;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$kbd-color						:#fff;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$kbd-bg							:#333;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$pre-bg							:#f5f5f5;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$pre-color						:$gray-dark;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Color
+$pre-border-color				:#ccc;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$pre-scrollable-max-height		:340px;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type String
+$body-font-size					:14px;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Number
+$scale-factor					:1.618;
+
+/// ...
+/// @group framework
+/// @access public
+/// @type Number
+$computed-line-height			:$base-line-height * $body-font-size;
