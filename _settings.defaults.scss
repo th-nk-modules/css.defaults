@@ -127,11 +127,12 @@ Styleguide 1.1
 */
 
 body {
-	width:$device-max-width-small;
-	width:$device-min-width-med;
-	width:$device-max-width-med;
-	width:$device-min-width-large;
-	width:$site-width;
+	// width:$device-max-width-small;
+	// width:$device-min-width-med;
+	// width:$device-max-width-med;
+	// width:$device-min-width-large;
+	// width:$site-width;
+	width:100%;
 }
 
 /*
